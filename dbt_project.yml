@@ -27,7 +27,12 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 vars:
     ad_reporting__microsoft_ads_enabled: False
+    api_source: google_ads    
+    shopify_schema: io_shopify
     shopify_database: io_shopify
+    google_ads_schema: adwords
+    google_ads_database: adwords 
+    
 
 
 models:
