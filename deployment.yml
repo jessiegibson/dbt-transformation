@@ -1,5 +1,5 @@
-- name: daily_sync
+name: daily
   schedule: 0 12 * * * 
   steps:
-     - name: run models
-       command: dbt run 
+      name: run models
+      command: dbt run 
